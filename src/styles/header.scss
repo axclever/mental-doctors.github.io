@@ -19,7 +19,14 @@ header {
   .logo {
     float: left;
     position: relative;
+    padding-left: 60px;
 
+    img {
+      position: absolute;
+      width: 54px;
+      left: 0;
+      top:-2px;
+    }
 
     .logo-link {
       text-decoration: none;
