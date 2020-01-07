@@ -9,6 +9,7 @@ module.exports = {
     },
     devServer: {
         contentBase: path.join(__dirname),
+        publicPath: "/dist/",
         compress: true,
         port: 9000
     },
@@ -45,13 +46,13 @@ module.exports = {
                 use: [
                     {
                         loader: 'file-loader',
-                        options: {}
+                        options: {
+                            name: "./assets/images/[hash].[ext]"
+                        }
                     }
                 ]
             }
         ]
     },
-    plugins: [
-
-    ]
+    plugins: []
 };

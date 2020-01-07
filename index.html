@@ -1,14 +1,126 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:fb="http://www.facebook.com/2008/fbml" prefix="og: http://ogp.me/ns#">
 <head>
-  <title>Mental Doctors – Психологическая помощь каждому</title>
+    <meta charset="utf-8"/>
+    <meta name="robots" content="index, follow"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link rel="canonical" href="https://mental-doctors.com"/>
+    <link href="assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="assets/Webclip.png" rel="apple-touch-icon">
+    <title>Mental-Doctors.com</title>
+    <meta content=" " name="description"/>
+
+
+    <meta property="og:site_name" content=" "/>
+    <meta content="" property="og:image">
+    <meta content="https://tooltip.io" property="og:url"/>
+    <meta content=" " property="og:title"/>
+
+    <meta content=" " property="og:description"/>
+
+    <meta property="og:locale" content="ru_RU"/>
+    <meta property="og:type" content="website"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155645791-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155645791-1');
+    </script>
 </head>
 <body>
-<div style="margin: auto 50px; font-size: 32px; font-weight: bold; font-familty: Arial, sans-serif;">Сайт в разработке</div>
 
-<div id="app"></div>
-<footer style="text-align:center">
-  © Mental-Doctors 2019
+
+<header>
+    <div class="header-center">
+        <div class="logo">
+            <a class="logo-link" href="https://mental-doctors.com">Mental<br/>Doctors</a>
+        </div>
+
+        <div class="navigation">
+            <div class="nav-item inline-link">ДЛЯ СПЕЦИАЛИСТОВ</div>
+            <div class="nav-item green-button">ВХОД</div>
+        </div>
+    </div>
+</header>
+<div class="section-white">
+    <div class="body-center">
+        <div class="main-section">
+
+            <div class="super-header">СЕРВИС ДЛЯ ПОДБОРА ПСИХОЛОГИЧЕСКОЙ ПОМОЩИ</div>
+            <div class="secondary-header">Психологи Психотерапевты Психиатры</div>
+            <div class="image-container">
+                <img src="/assets/images/client-image.png"/>
+                <img src="/assets/images/therapist-image.png"/>
+            </div>
+
+            <div class="action-button-container">
+                <a href="#" class="action-button">НАЙТИ СПЕЦИАЛИСТА</a>
+            </div>
+        </div>
+
+
+        <div id="app"></div>
+    </div>
+</div>
+
+<div class="section-white">
+    <br/>
+    <br/>
+    <br/>
+    <!--    <div class="body-center">-->
+    <!--        <h3></h3>-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-4"></div>-->
+    <!--            <div class="col-4"></div>-->
+    <!--            <div class="col-4"></div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+</div>
+
+<!--- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="copyright-section">
+                    <div class="copyright-brand">Mental-Doctors © 2019</div>
+                    <div class="brand-description">Сервис для подбора психологической помощи</div>
+
+                    <div class="privacy-part">
+                        <a href="#">Пользовательское соглашение</a><br/>
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="information-section">
+                    <h6>Информация</h6>
+                    <div><a href="#">Вопросы и ответы</a></div>
+                    <div><a href="#">Для специалистов</a></div>
+                    <div><a href="#">Блог</a></div>
+                </div>
+            </div>
+            <div class="col-4">
+                <h6>Контакты</h6>
+                <div class="brand-email">
+                    <img width="24" src="/assets/images/mail-icon.png"/>
+                    <a href="mailto:hello@mental-doctors.com">hello@mental-doctors.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
-<script src="app.min.js"></script>
+
+<script src="/dist/app.min.js"></script>
 </body>
 </html>

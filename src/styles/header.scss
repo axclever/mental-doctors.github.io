@@ -1,0 +1,80 @@
+header {
+  font-family: $font-family;
+  min-height: 90px;
+  padding-top: 15px;
+  box-sizing: border-box;
+
+  .header-center {
+    padding: 25px;
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    float: left;
+    position: relative;
+
+
+    .logo-link {
+      text-decoration: none;
+      width: 100px;
+      height: 55px;
+      font-weight: 600;
+      font-family: $font-family;
+      font-size: 28px;
+      line-height: 24px;
+      color: $dark-color;
+      &:hover {
+        color: $brand-color;
+      }
+    }
+
+    .brand-description {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 300;
+    }
+  }
+
+  .button-light {
+    color: #000;
+    background-color: transparent;
+    border-color: #e0e0e2;
+    font-family: $font-family;
+  }
+
+  .navigation {
+    float: right;
+    font-family: $font-family;
+    color: $grey-color;
+
+    .nav-item {
+      font-weight: 400;
+      font-size: 14px;
+      display: inline-block;
+      margin-left: 20px;
+      cursor: pointer;
+
+      &.inline-link {
+        &:hover {
+          cursor: pointer;
+          color: $dark-color;
+          border-bottom: 1px solid;
+          padding-bottom: 1px;
+        }
+      }
+
+      &.green-button {
+        background-color: #2ABD65;
+        color: #fff;
+        padding: 10px 30px;
+        font-weight: 600;
+        font-size: 14px;
+        border-radius: 100px;
+        display: inline-block;
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+footer {
+  font-family: $font-family;
+  min-height: 180px;
+  background-color: $dark-color;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  clear: both;
+
+
+  h6 {
+    font-size: 18px;
+    font-family: $font-family;
+    font-weight: 300;
+    color: #fff;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+
+  .brand-email {
+    a {
+      font-weight: 300;
+      font-size: 14px;
+      color: white;
+    }
+
+    img {
+      vertical-align: top;
+      margin-right: 5px;
+    }
+  }
+
+  a {
+    color: #c0c7c4;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 26px;
+    text-decoration: none;
+
+
+    &:hover {
+      color: #c0c7c4;
+      border-bottom: 1px solid #c0c7c4;
+    }
+  }
+
+  .information-section {
+    padding-bottom: 20px;
+  }
+
+  .copyright-section {
+    padding-bottom: 20px;
+    .copyright-brand {
+      font-size: 18px;
+      color: $brand-color;
+      padding: 0 0 0px 0;
+      font-weight: 600;
+    }
+
+    .brand-description {
+      font-size: 12px;
+      font-weight: 200;
+      padding: 5px 0 20px 0;
+    }
+
+    .privacy-part {
+      a {
+        font-size: 12px;
+        line-height: 22px;
+        color: $grey-color;
+
+        &:hover {
+          color: #c0c7c4;
+          padding-bottom: 1px;
+          border-bottom: 1px solid #c0c7c4;
+        }
+      }
+    }
+  }
+}
