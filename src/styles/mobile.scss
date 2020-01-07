@@ -9,3 +9,89 @@
     }
   }
 }
+
+@media (min-width: 300px) and (max-width: 500px) {
+  header {
+    .mobile-nav {
+      display: block;
+      float: right;
+      font-size: 18px;
+      padding: 10px;
+      cursor: pointer;
+
+      img {
+        width: 24px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+    }
+
+    .navigation {
+      z-index: 99999;
+      position: absolute;
+      color: white;
+      text-transform: uppercase;
+      top: 100px;
+      right: 15px;
+      background-color: $brand-color;
+      width: 300px;
+      float: none;
+      padding: 15px;
+      display: none;
+
+      .mobile-background {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 90px;
+        display: block;
+        z-index: -1;
+
+      }
+
+      &.show-menu {
+        display: block;
+      }
+
+      &.hide-menu {
+        display: none;
+      }
+
+      .nav-item {
+        padding: 10px;
+        text-align: right;
+        float: right;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        display: block;
+
+        &.inline-link {
+          &:hover,
+          &:focus,
+          &:active {
+            border-bottom: none;
+            padding: 15px;
+          }
+        }
+
+        &.green-button {
+          background-color: transparent;
+          padding: 15px;
+        }
+      }
+    }
+  }
+
+  .body-center {
+    .super-header {
+      font-size: 26px;
+    }
+
+    .secondary-header {
+      font-size: 14px;
+      word-spacing: 24px;
+    }
+  }
+}
