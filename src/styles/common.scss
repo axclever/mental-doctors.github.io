@@ -4,5 +4,9 @@
 @import "fonts";
 @import "colors";
 
+* {
+  opacity: unset;
+}
+
 
 $font-family: LibreFranklin, Helvetica, sans-serif;
